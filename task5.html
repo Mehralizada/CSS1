@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Absolute Positioning Örneği</title>
+<style>
+  .container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black; /* Çerçeve */
+  }
+
+  .color-box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .red { background-color: red; top: 0; left: 0; }
+  .green { background-color: green; top: 0; left: 25px; }
+  .blue { background-color: blue; top: 60px; left: 0; }
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="color-box red"></div>
+  <div class="color-box green"></div>
+  <div class="color-box blue"></div>
+  
+</div>
+
+</body>
+</html>
+
